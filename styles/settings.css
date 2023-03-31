@@ -27,6 +27,7 @@
     --spacing-lg: 32px;
     --spacing-xl: 64px;
 
+    --standard-width: 1144px;
 
     --purple-1: #6962f7;
     --purple-2: #7000ff;
@@ -36,6 +37,10 @@
     --bg-white: #fff;
     --bg-light: #f7f9fc;
     
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
 }
 
 body{
