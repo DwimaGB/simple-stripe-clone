@@ -60,10 +60,10 @@
 
 .secondary-text{
     font-size: var(--secondary-text-size);
-    /* font-weight: 500; */
+    font-weight: 500;
     line-height: var(--secondary-text-height);
     color: var(--text-grey);
-    letter-spacing: 1.2px;
+    letter-spacing: 1.5px;
 }
 
 /* Card */
