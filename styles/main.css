@@ -274,7 +274,7 @@ main {
 }
 
 .why-swipe-section .secondary-text{
-    color: var(--text-slight-dark);
+    color: var(--text-dark);
 }
 
 /* Global Section */
@@ -428,7 +428,7 @@ main {
 
 .virtual-events-section .card-bottom .secondary-text{
     font-weight: 600;
-    color: var(--text-dark);
+    color: var(--text-slight-dark);
     width: 70%;
 }
 
