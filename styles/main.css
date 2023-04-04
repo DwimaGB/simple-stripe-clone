@@ -54,10 +54,9 @@ main {
     width: 200%;
     height: 970px;
     position: absolute;
-    top: -900px;
+    top: -600px;
     left: -50%;
-    transform-style: preserve-3d;
-    transform-origin: bottom right;
+    /* transform-origin: bottom right; */
     transform: rotate(-10deg);
 
     background-color: purple;
