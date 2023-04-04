@@ -1,6 +1,7 @@
 
 :root{
-    --text-dark: #000;
+    --text-dark: #333;
+    --text-slight-dark: #555;
     --text-light: #fff;
     --text-grey: #adbdcc;
     --body-font: 'Roboto', sans-serif;
@@ -107,6 +108,7 @@ a:hover{
 p{
     font-size: var(--p-size);
     line-height: var(--p-height);
+    letter-spacing: 1.125px;
     font-weight: 400;
     margin: var(--spacing-md) 0;
 }
