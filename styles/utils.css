@@ -5,8 +5,14 @@
 .section-container{
     width: 100%;
     max-width: var(--standard-width);
+    margin: 0 auto;
 }
 
+.section-full-width{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .two-column{
     width: 100%;
@@ -59,7 +65,24 @@
     letter-spacing: 0.25px;
 }
 
+/* Card */
 
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: var(--spacing-sm) var(--spacing-md) var(--spacing-sm) 0;
+}
+
+.card .icon{
+    height: 50px;
+    margin-bottom: var(--spacing-sm);
+}
+
+.card h3{
+    font-size: var(--h6-size);
+}
 
 /* Buttons */
 .primary-button{

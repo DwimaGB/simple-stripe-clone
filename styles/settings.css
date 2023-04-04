@@ -37,6 +37,8 @@
     --bg-white: #fff;
     --bg-light: #f7f9fc;
     
+    --standard-box-shadow: 0px 2px 40px rgba(0,0,0,0.15);
+    --primary-gradient: linear-gradient(101.33deg, #08209a, #6563ff, #36c5f0, #83e2ff);
 }
 
 *, *::after, *::before{
@@ -71,9 +73,8 @@ h1{
 }
 
 h2{
-    font-size: var(--h2-size);
-    letter-spacing: -0.25px;
-    line-height: var(--h2-height);
+    font-size: var(--h3-size);
+    font-weight: 600;
 }
 
 h3{
@@ -107,7 +108,14 @@ p{
     font-size: var(--p-size);
     line-height: var(--p-height);
     font-weight: 400;
-    margin: var(--spcaing-md);
+    margin: var(--spacing-md) 0;
 }
 
+button{
+    all: unset;
+}
 
+ul{
+    padding: 0;
+    margin: 0;
+}
