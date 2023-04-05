@@ -45,7 +45,17 @@ main {
 }
 
 .mobile-nav-toggle{
+    width: 48px;
+    height: 34px;
+    padding-inline: var(--spacing-sm);
+    background-color: rgba(250, 250, 250, 0.25);
+
+    border-radius: 20px;
     display: none;
+}
+
+.mobile-nav-toggle:hover{
+    cursor: pointer;
 }
 
 /* Hero Section */
