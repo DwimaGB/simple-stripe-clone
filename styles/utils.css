@@ -153,3 +153,10 @@
 .nowrap{
     white-space: nowrap;
 }
+
+
+.sr-only{
+    position: absolute;
+    left: -10000px;
+}
+

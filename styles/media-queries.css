@@ -5,7 +5,7 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    :root{
+    :root {
         --h1-size: 4.75rem;
         --h1-height: 86px
     }
@@ -68,6 +68,19 @@
 
     .navbar {
         margin-bottom: 0;
+    }
+
+    .navbar .menu {
+        display: none;
+    }
+
+    .navbar .navbar-button {
+        display: none;
+    }
+
+
+    .mobile-nav-toggle {
+        display: block;
     }
 
     /* Hero Section */
@@ -179,13 +192,13 @@
         padding-inline-start: 0;
     }
 
-     /* Navbar */
+    /* Navbar */
 
-     .navbar {
+    .navbar {
         margin-bottom: var(--spacing-lg);
     }
 
- /* Hero Section */
+    /* Hero Section */
 
     .hero .two-column .hero-phone-container {
         display: none;

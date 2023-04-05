@@ -1,0 +1,8 @@
+
+.hamburger .bar{
+    background-color: var(--bg-white);
+    height: 4px;
+    width: 36px;
+    margin: 6px;
+    border-radius: 10px;
+}

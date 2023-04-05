@@ -1,6 +1,6 @@
 @import 'settings.css';
 @import 'utils.css';
-
+@import 'hamburger.css';
 
 body {
     display: flex;
@@ -23,7 +23,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 var(--spacing-md);
+    padding: 0 var(--spacing-sm);
     margin-bottom: var(--spacing-xl);
 }
 
@@ -44,6 +44,9 @@ main {
     text-decoration: underline;
 }
 
+.mobile-nav-toggle{
+    display: none;
+}
 
 /* Hero Section */
 
