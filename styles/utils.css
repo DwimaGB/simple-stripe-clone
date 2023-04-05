@@ -45,7 +45,7 @@
 /* Subtitles */
 .subtitle-purple, .subtitle-blue{
     font-family: var(--heading-font);
-    font-weight: 500;
+    font-weight: 600;
     font-size: var(--subtitle-size);
     line-height: var(--subtitle-height);
 }

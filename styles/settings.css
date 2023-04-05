@@ -2,10 +2,7 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 16px;
-}
-  
+
 
 :root{
     --text-dark: #333;
@@ -50,6 +47,16 @@ html {
     --primary-gradient: linear-gradient(101.33deg, #08209a, #6563ff, #36c5f0, #83e2ff);
 }
 
+html {
+    font-size: 16px;
+    
+}
+  
+html, body{
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
 
 body{
     font-family: var(--body-font);

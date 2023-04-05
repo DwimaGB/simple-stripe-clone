@@ -9,8 +9,6 @@ body {
     align-items: center;
 
     background-color: var(--bg-white);
-
-    overflow-x: hidden;
 }
 
 
@@ -56,7 +54,6 @@ main {
     position: absolute;
     top: -600px;
     left: -50%;
-    /* transform-origin: bottom right; */
     transform: rotate(-10deg);
 
     background-color: purple;
@@ -320,7 +317,7 @@ main {
 
 .global-section .card-container .card h3{
     border-left: 2px solid var(--blue-1);
-    padding-left: var(--spacing-sm);
+    padding-inline-start: var(--spacing-sm);
     line-height: 2;
 }
 
@@ -353,7 +350,7 @@ main {
 
 .virtual-events-section .col-left{
     height: 446px;
-    padding-right: var(--spacing-xl);
+    padding-inline-end: var(--spacing-xl);
 }
 
 .virtual-events-section .primary-button{
@@ -365,7 +362,8 @@ main {
 }
 
 .swipe-sessions-card{
-    width: 540px;
+    width: 100%;
+    max-width: 540px;
     height: 446px;
     box-shadow: var(--standard-box-shadow);
     border-radius: 20px;
