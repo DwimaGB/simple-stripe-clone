@@ -171,24 +171,20 @@ main {
 
 #credit-card{
     grid-area: 1/1/2/2;
-    border-radius: var(--standard-border-radius);
 }
 
 
 #slack-invoice{
     grid-area: 1/2/3/4;
-    border-radius: var(--standard-border-radius);
 }
 
 #phone{
     grid-area: 2/1/4/2;
-    border-radius: var(--standard-border-radius);
     box-shadow: none;
 }
 
 #dash{
     grid-area: 3/2/4/4;
-    border-radius: var(--standard-border-radius);
 }
 
 .graphic-grid img{
