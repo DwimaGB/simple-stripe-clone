@@ -1,3 +1,5 @@
+
+/* Custom breakpoint */
 @media only screen and (max-width: 1144px) {
     .section-container {
         padding: 0 var(--spacing-md);
@@ -9,6 +11,12 @@
         --h1-size: 4.75rem;
         --h1-height: 86px
     }
+
+     /* Partners Grid */
+     .partners-grid{
+        margin: 0;
+    }
+
 }
 
 @media only screen and (max-width: 850px) {
@@ -55,7 +63,7 @@
     }
 }
 
-/* Tablet size */
+/* Tablet size breakpoint */
 
 @media only screen and (max-width: 768px) {
     :root {
@@ -111,12 +119,20 @@
         height: 475px;
     }
 
+   
     /* Unified platform */
     .unified-platform-section h2 {
         width: 100%;
     }
 
     /* Integrations section */
+
+    .integrations-section{
+        padding: var(--spacing-xl) 0;
+    }
+    .integrations-section::before{
+        height: 900px;
+    }
 
     .integrations-section .card-container {
         flex-direction: column;
@@ -127,6 +143,10 @@
     }
 
     /* Why swipe */
+
+    .why-swipe-section{
+        padding-block: var(--spacing-lg) var(--spacing-xl);
+    }
 
     .why-swipe-section .card-container {
         flex-wrap: wrap;
@@ -150,12 +170,21 @@
     }
 
     /* Virtual events section */
+
+    .virtual-events-section{
+        padding: var(--spacing-xl) 0;
+    }
+
     .virtual-events-section .swipe-sessions-card {
         width: 100%;
 
     }
 
     /* Getting started section */
+
+    .getting-started-section{
+        padding-top: 0;
+    }
 
     .getting-started-section .two-column {
         align-items: center;
@@ -171,6 +200,8 @@
     }
 
 }
+
+/* Mobile size breakpoint */
 
 @media only screen and (max-width: 550px) {
 
@@ -204,17 +235,32 @@
         display: none;
     }
 
+     /* Partners Grid */
+     .partners-grid{
+        margin: var(--spacing-lg) 0;
+    }
+
     /* Unified platform */
     .unified-platform-section h2 {
         width: 100%;
     }
 
     /* Integrations section */
+
+    .integrations-section{
+        padding: var(--spacing-md) 0;
+    }
+
     .integrations-section .col-right {
         display: none;
     }
 
     /* Why swipe */
+
+    .why-swipe-section{
+        padding: calc(var(--spacing-xl)*1.325) 0;
+    }
+
     .why-swipe-section .card-container .card {
         width: 100%;
 
@@ -226,6 +272,14 @@
 
     /* Global section */
 
+    .global-section{
+        padding-top: var(--spacing-xl);
+    }
+
+    .global-section .card-container{
+        margin: var(--spacing-md) 0;
+    }
+
     .global-section .card-container .card {
         width: 100%;
         margin: var(--spacing-sm) 0;
@@ -236,6 +290,11 @@
     }
 
     /* Virtual events section */
+
+    .virtual-events-section{
+        padding: var(--spacing-xl) 0 0 0;
+    }
+
     .virtual-events-section .swipe-sessions-card {
         height: 350px;
         margin: var(--spacing-lg) 0;
@@ -243,6 +302,12 @@
 
     #sessions-logo {
         width: 275px;
+    }
+
+    /* Getting Started Section */
+
+    .getting-started-section{
+        padding: var(--spacing-md) 0;
     }
 
     /* Footer */

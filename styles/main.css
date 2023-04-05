@@ -45,12 +45,12 @@ main {
 }
 
 .mobile-nav-toggle{
-    width: 48px;
-    height: 34px;
+    width: 42px;
+    height: 36px;
     padding-inline: var(--spacing-sm);
     background-color: rgba(250, 250, 250, 0.25);
 
-    border-radius: 20px;
+    border-radius: var(--standard-border-radius);
     display: none;
 }
 
@@ -171,19 +171,24 @@ main {
 
 #credit-card{
     grid-area: 1/1/2/2;
+    border-radius: var(--standard-border-radius);
 }
 
 
 #slack-invoice{
     grid-area: 1/2/3/4;
+    border-radius: var(--standard-border-radius);
 }
 
 #phone{
     grid-area: 2/1/4/2;
+    border-radius: var(--standard-border-radius);
+    box-shadow: none;
 }
 
 #dash{
     grid-area: 3/2/4/4;
+    border-radius: var(--standard-border-radius);
 }
 
 .graphic-grid img{
@@ -255,12 +260,12 @@ main {
 #api-code{
     max-width: 470px;
     margin-bottom: var(--spacing-md);
-    border-radius: 20px;
+    border-radius: var(--standard-border-radius);
 }
 
 #terminal-code{
     max-width: 470px;
-    border-radius: 20px;
+    border-radius: var(--standard-border-radius);
 }
 
 
@@ -379,7 +384,7 @@ main {
     max-width: 540px;
     height: 446px;
     box-shadow: var(--standard-box-shadow);
-    border-radius: 20px;
+    border-radius: var(--standard-border-radius);
 
     overflow: hidden;
 }

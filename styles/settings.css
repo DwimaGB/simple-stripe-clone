@@ -44,6 +44,7 @@
     --bg-light: #f7f9fc;
     
     --standard-box-shadow: 0px 2px 40px rgba(0,0,0,0.15);
+    --standard-border-radius: 20px;
     --primary-gradient: linear-gradient(101.33deg, #08209a, #6563ff, #36c5f0, #83e2ff);
 }
 
