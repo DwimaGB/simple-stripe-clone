@@ -23,7 +23,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 var(--spacing-sm);
+    padding: var(--spacing-md) var(--spacing-sm) var(--spacing-sm) 0;
     margin-bottom: var(--spacing-xl);
 }
 
@@ -44,7 +44,7 @@ main {
     text-decoration: underline;
 }
 
-.mobile-nav-toggle{
+.menu-button{
     width: 42px;
     height: 36px;
     padding-inline: var(--spacing-sm);
@@ -54,8 +54,103 @@ main {
     display: none;
 }
 
-.mobile-nav-toggle:hover{
+.menu-button:hover{
     cursor: pointer;
+}
+
+.site-header{
+    position: relative;
+}
+
+
+#mobile-menu-logo{
+    width: 60px;
+}
+
+.mobile-nav-menu{
+    width: 375px;
+    height: 600px;
+    background-color: var(--bg-white);
+    /* padding: var(--spacing-md); */
+    border-radius: 11px;
+    box-shadow: var(--standard-box-shadow);
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: var(--spacing-md);
+    right: var(--spacing-md);
+
+    z-index: 9999;
+
+    /* display: none; */
+    transform-origin: top;
+    transform: scaleY(0);
+    opacity: 0;
+
+    transition: transform 300ms ease, opacity 150ms;
+}
+
+.mobile-menu-header{
+    padding: var(--spacing-md);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-close-button{
+    width: 40px;
+    height: 40px;
+}
+
+.menu-close-button:hover{
+    cursor: pointer;
+}
+
+.mobile-nav-menu ul{
+    list-style: none;
+    background-color: var(--bg-light);
+}
+
+.mobile-nav-menu ul li{
+    border-bottom: 1px solid #eee;
+}
+
+.mobile-nav-menu ul a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: var(--spacing-md);
+    color: var(--text-dark);
+    font-size: 1.125rem;
+
+    transition: background-color 200ms;
+}
+
+.mobile-nav-menu ul a:is(:hover, :focus){
+    background-color: #eee;
+}
+
+
+.site-header .mobile-nav-menu .primary-button{
+    background-color: var(--purple-1);
+}
+
+.mobile-menu-footer{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.mobile-menu-footer .btn-wrapper{
+    width: 100%;
+    padding: var(--spacing-md);
+    background-color: var(--bg-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Hero Section */

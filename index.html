@@ -14,14 +14,17 @@
         rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/media-queries.css">
+    <script src="scripts/script.js" defer></script>
 </head>
 
 <body>
-    <header class="section-container">
+    <header class="site-header section-container">
         <nav class="navbar">
-            <img src="assets/logo-white.svg" alt="Swipe, inc.">
+            <a href="#">
+                <img src="assets/logo-white.svg" alt="Swipe, inc.">
+            </a>
 
-            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+            <button class="menu-button" aria-controls="primary-navigation">
                 <span class="sr-only">Menu</span>
                 <div class="hamburger">
                     <div class="bar bar-top"></div>
@@ -39,6 +42,34 @@
             </ul>
 
             <button class="primary-button navbar-button">Sign In</button>
+        </nav>
+        <nav class="mobile-nav-menu" data-visible="false">
+            <div class="mobile-menu-header">
+                <a href="#">
+                    <img src="assets/logo-dark.svg" alt="Swipe, inc." id="mobile-menu-logo">
+                </a>
+                <button class="menu-close-button" aria-controls="primary-navigation">
+                    <div class="cross">
+                        <div class="line"></div>
+                    </div>
+                </button>
+            </div>
+            
+            <ul>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+            
+            <div class="mobile-menu-footer">
+                <div class="btn-wrapper">
+                    <button class="primary-button with-icon">Sign In
+                        <img src="assets/arrow-right-light.svg">
+                    </button>
+                </div>
+            </div>
         </nav>
     </header>
 

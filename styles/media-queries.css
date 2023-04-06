@@ -87,8 +87,13 @@
     }
 
 
-    .mobile-nav-toggle {
+    .menu-button {
         display: block;
+    }
+
+    .mobile-nav-menu[data-visible="true"]{
+        opacity: 1;
+        transform: scaleY(100%);
     }
 
     /* Hero Section */
@@ -227,6 +232,11 @@
 
     .navbar {
         margin-bottom: var(--spacing-lg);
+    }
+
+    .mobile-nav-menu{
+        width: calc(100% - var(--spacing-lg));
+        height: 95vh;
     }
 
     /* Hero Section */

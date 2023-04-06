@@ -13,3 +13,29 @@
     width: 24px;
     border-radius: 10px;
 }
+
+.cross{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cross .line{
+    width: 16px;
+    height: 2px;
+    background-color: var(--text-dark);
+    position: relative;
+
+    transform: rotate(45deg);
+}
+
+.cross .line::before{
+    content: "";
+    width: 16px;
+    height: 2px;
+    background-color: var(--text-dark);
+
+    position: absolute;
+    transform: rotate(-90deg);
+}
