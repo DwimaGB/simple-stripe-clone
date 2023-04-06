@@ -236,7 +236,7 @@
 
     .mobile-nav-menu{
         width: calc(100% - var(--spacing-lg));
-        height: calc(100vh - var(--spacing-lg));
+        height: calc(100vh - calc(var(--spacing-lg)*2));
     }
 
     /* Hero Section */
