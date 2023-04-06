@@ -90,6 +90,7 @@ main {
     opacity: 0;
 
     transition: transform 300ms ease, opacity 150ms;
+    overflow: hidden;
 }
 
 .mobile-menu-header{
